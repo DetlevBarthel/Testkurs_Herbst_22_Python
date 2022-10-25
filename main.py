@@ -10,8 +10,9 @@ def sketch(p):
         p.background(255)
         p.rectMode(p.CENTER)
 
-        # An dem ersten Kurstag haben wir gelernt einen Kreis zu zeichnen.
+        # Wir haben nun einen weiteren Kreis auf den ersten gezeichnet.
         p.circle(250, 205, 20)
+        p.circle(250, 205, 100)
 
     p.setup = setup
       
